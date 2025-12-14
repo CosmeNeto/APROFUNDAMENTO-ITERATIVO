@@ -55,7 +55,7 @@ def desenhar_arvore(raiz, objetivo, nos_solucao):
         # Marca se o nó faz parte da solução
         eh_caminho_solucao = id(no) in estados_solucao
         
-        # Define a cor/símbolo do nó
+        # Define a símbolo do nó
         if no.estado == objetivo:
             simbolo = "[*]"
             marcador = " <<< OBJETIVO!"
